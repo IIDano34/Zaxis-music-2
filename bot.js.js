@@ -319,7 +319,7 @@ client.on('message', message => {
         .setDescription('**برفكس البوت (2)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
-        .addField('2disconnect', 'الخروج من رومك الصوتي')
+        .addField('disconnect', 'الخروج من رومك الصوتي')
         .addField('skip', 'تخطي الأغنية')
         .addField('pause', 'ايقاف الاغنية مؤقتا')
         .addField('resume', 'تكملة الاغنية')
