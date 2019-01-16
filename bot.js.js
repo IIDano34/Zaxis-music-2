@@ -354,3 +354,18 @@ client.user.setStatus("dnd")
 });
 
 client.login(process.env.BOT_TOKEN);
+
+client.on('message' , DâRK => { //Coded By Narox & DâRKNîghT#1001
+  var Narox ="-" //prefix bot
+    if(DâRK.content.startsWith('<@Zaxis Music 2#2967>')) //id bot
+     var Dark = new Discord.RichEmbed()
+    .setColor('RANDOM')
+    .setDescription(`Hey Im **${client.user.username}!**`)
+    .addField('My Prefix' , `${Narox}` ,true)
+    .addField('Try To Use' , `${Narox}help` ,true)
+    .addField('Add Bot' , `${Narox}invitebot` ,true)
+    .addField('Support Server' , `${Narox}support` ,true)
+    .addField('Bot Owner' , `<@Zax | IIDanoMC#8702>` ,true) //Coded By Narox & DâRKNîghT#1001
+  .setTimestamp()
+    DâRK.channel.send(Dark)
+});
